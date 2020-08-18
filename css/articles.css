@@ -1,0 +1,60 @@
+body {
+    background-color: #f5f5f5#ffff;
+    display: inline;
+}
+
+@font-face {
+    font-family: "Mitchellia Demo" ;
+    src: url("../fonts/Mitchellia\ Demo/")
+}
+@font-face {
+    font-family: "Safiar";
+    src: url("../fonts/SafiarSignature-6Ya8x.ttf")
+}
+
+h1 {
+    font-family: "Safiar";
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    color: #afc426;
+}
+
+
+/* .under {
+    border-width: 3px 0px 3px 0px; 
+    border-top-style: double;
+    border-bottom-style: double;
+  } */
+a {
+    color: tomato;
+}
+
+.btn-lg {
+    transition: 30ms;
+}
+
+.btn-lg:hover {
+    color: white;
+    background-color: gainsboro;
+}
+
+.selected {
+    color: white;
+    background-color: rgb(175 196 38 / 1);
+}
+
+.card-deck {
+    margin: auto;
+}
+
+.card-image {
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+}
+
+.page-footer {
+    background-color: #afc426;
+}

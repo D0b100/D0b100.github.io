@@ -1,0 +1,129 @@
+body {
+    background-color: #f5f5f5#ffff;
+    display: inline;
+}
+
+@font-face {
+    font-family: "Mitchellia Demo" ;
+    src: url("../fonts/Mitchellia\ Demo/")
+}
+@font-face {
+    font-family: "Safiar";
+    src: url("../fonts/SafiarSignature-6Ya8x.ttf")
+}
+
+h1 {
+    font-family: "Safiar";
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    color: #afc426;
+}
+
+.collabo {
+    /* border-top-width: 3px; */
+    border-top-style: double;
+    /* border-bottom-width: 3px;
+    border-bottom-style: double; */
+    padding: 30px;
+    margin: 20px;
+    text-align: center;  
+}
+
+/* .under {
+    border-top-width: 3px;
+    border-top-style: double;
+    border-bottom-width: 3px;
+    border-bottom-style: double;
+  } */
+
+#prime-container {
+    display: flex;
+    background-color:  rgb(212, 218, 128);
+    border-bottom-left-radius: 60px 50px;
+    border-top-right-radius: 50px 60px; 
+}
+
+.btn-lg {
+    transition: 30ms;
+}
+
+.btn-lg:hover {
+    color: white;
+    background-color: gainsboro;
+}
+
+.selected {
+    color: white;
+    background-color: rgb(175 196 38 / 1);
+}
+
+
+  .mask {
+    display: flex;
+  }
+
+  /* #botanic-container {
+      display: flex;
+      justify-content: space-between;
+  } */
+
+  /* #strong {
+        /* list-style-image: url("../img/MAŁE.jpg"); */
+
+
+
+  /* to są cssy do grida : */
+
+  img {
+      width: 500px;
+  }
+
+  .px-md-5 mx-md-5 dark-grey-text text-center text-lg-left {
+      margin: 30px ;
+  }
+
+  .col-lg-7 mb-4 mb-lg-0 {
+      background-color: lightgray;
+      border-radius: 30px;
+  }
+
+  /* .text-muted {
+      background-color: rgb(212, 218, 128);
+      padding: 30px;
+      border-bottom-left-radius: 60px 50px;
+      border-top-right-radius: 50px 60px;
+
+  } */
+
+  .button:hover {
+      color: white;
+      background-color: black;
+      text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .page-footer {
+    background-color: #afc426;
+}
+
+#articles {
+    display: flex;
+    justify-content: center;
+}
+
+/* .card {
+    max-width: 400px;
+    min-width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+} */
+
+/* .card:hover {
+    box-shadow: 8px 10px  rgb(212, 218, 128);
+} */

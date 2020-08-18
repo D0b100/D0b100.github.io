@@ -1,0 +1,125 @@
+body {
+    background-color: #ffff;
+    display: inline;
+}
+
+@font-face {
+    font-family: "Mitchellia Demo" ;
+    src: url("../fonts/Mitchellia\ Demo/")
+  }
+  
+  @font-face {
+    font-family: "Safiar";
+    src: url("../fonts/SafiarSignature-6Ya8x.ttf")
+  }
+
+h1 {
+    font-family: "Safiar";
+    /* letter-spacing: 2px; */
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    color: rgb(212, 218, 128);
+}
+
+.btn-lg {
+    transition: 30ms;
+}
+
+.btn-lg:hover {
+    color: white;
+    background-color: gainsboro;
+}
+
+.selected {
+    color: white;
+    background-color: rgb(175 196 38 / 1);
+}
+
+
+  /* ----FORMULARZ--- */
+
+.contact-form{
+    background: gainsboro;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    border-bottom-left-radius: 60px 50px;
+    border-top-right-radius: 50px 60px;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color:black;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #3e4cce;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* button {
+    border-style: none;
+    color: white;
+    background-color:  #3e4cce;
+    border-radius: 20px;
+} */
+
+
+/* ----KONIEC---- */
+
+.collabo {
+    border-top-width: 3px;
+    border-top-style: double;
+    border-bottom-width: 3px;
+    border-bottom-style: double;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+#map-container-section {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #afc426;
+}
+
+
+
