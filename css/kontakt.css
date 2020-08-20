@@ -121,5 +121,7 @@ footer {
     background-color: #afc426;
 }
 
-
+p { 
+    text-indent: 20px; 
+}
 
